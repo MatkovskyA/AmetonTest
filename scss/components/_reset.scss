@@ -37,3 +37,9 @@ img {
 a {
   text-decoration: none;
 }
+
+a:hover {
+  scale: 1.03;
+  opacity: 0.9;
+  cursor: pointer;
+}
