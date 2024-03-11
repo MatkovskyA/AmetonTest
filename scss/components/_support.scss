@@ -1,0 +1,44 @@
+.support {
+}
+.container {
+}
+.support-wrapper {
+  padding: 40px 15px 54px;
+  position: relative;
+  background-color: $BlueColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+.support-title {
+  margin-bottom: 4px;
+}
+.support-description {
+  font-size: 17px;
+  line-height: 140%;
+  max-width: 535px;
+  color: $WhiteColor;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.support-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.support-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 15px 0;
+  background-color: $WhiteColor;
+  border-radius: 12px;
+  width: 160px;
+  color: $BlackColor;
+  font-size: 15px;
+  font-family: "MuseoSans700", sans-serif;
+  line-height: 120%;
+}

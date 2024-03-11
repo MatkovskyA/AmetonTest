@@ -1,0 +1,45 @@
+@import "components/reset";
+@import "components/variables";
+@import "components/support";
+@import "components/social";
+@import "components/questions";
+@import "components/information";
+
+@font-face {
+  font-family: "MuseoSans500";
+  src: url("../fonts/MuseoSansCyrl.otf");
+}
+@font-face {
+  font-family: "MuseoSans900";
+  font-weight: 900;
+  src: url("../fonts/museosanscyrl-900.ttf");
+}
+@font-face {
+  font-family: "MuseoSans700";
+  font-weight: 700;
+  src: url("../fonts/museosanscyrl-700.ttf");
+}
+@font-face {
+  font-family: "euclidRegular";
+  src: url("../fonts/EuclidCircularBRegular.woff");
+}
+@font-face {
+  font-family: "euclidBold";
+  src: url("../fonts/EuclidCircularBSemiBold.woff");
+}
+
+h1 {
+  font-family: "MuseoSans900", sans-serif;
+  color: $WhiteColor;
+  font-size: 60px;
+}
+
+p {
+  font-family: "MuseoSans500", sans-serif;
+}
+
+.container {
+  max-width: 1215px;
+  padding: 40px;
+  margin: 0 auto;
+}
