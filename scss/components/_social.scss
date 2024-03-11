@@ -1,0 +1,31 @@
+.content-wrapper {
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 42px 40px;
+  background-color: $WhiteColor;
+  border-radius: 40px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.content-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-inner__text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.content-inner__links {
+  display: flex;
+  gap: 14px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background: $GrayColor;
+  border-radius: 13px;
+}

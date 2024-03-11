@@ -1,17 +1,38 @@
-.support {
-}
-.container {
-}
 .support-wrapper {
   padding: 40px 15px 54px;
-  position: relative;
-  background-color: $BlueColor;
+  background-image: url(../../resourses/bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 40px;
 }
+
+//Код ниже позволяет вставить элементы декора секции через псевдоэлементы, но при адаптиве их сразу нужно было бы убрать
+// .support-wrapper::after {
+//   content: "";
+//   position: absolute;
+//   left: 0;
+//   top: 37px;
+//   width: 274px;
+//   height: 195px;
+//   background-image: url(../../resourses/tg.svg);
+//   background-repeat: no-repeat;
+// }
+// .support-wrapper::before {
+//   content: "";
+//   position: absolute;
+//   right: 0;
+//   bottom: -9px;
+//   width: 274px;
+//   height: 235px;
+//   background-image: url(../../resourses/handPhone.svg);
+//   background-repeat: no-repeat;
+// }
+
 .support-title {
   margin-bottom: 4px;
 }

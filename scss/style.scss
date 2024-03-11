@@ -40,6 +40,32 @@ p {
 
 .container {
   max-width: 1215px;
-  padding: 40px;
   margin: 0 auto;
+}
+
+a:hover {
+  scale: 1.03;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+main {
+  padding: 40px;
+  background-color: $GrayColor;
+}
+
+h4 {
+  font-family: "MuseoSans700";
+  font-size: 15px;
+  line-height: 120%;
+}
+
+h2 {
+  font-family: "MuseoSans700";
+  font-size: 40px;
+  line-height: 120%;
 }
