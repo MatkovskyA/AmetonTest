@@ -1,0 +1,90 @@
+.questions {
+}
+.container {
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.questions-slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 15px;
+}
+
+.slider-card {
+  min-height: 162px;
+  display: flex;
+  min-width: 0;
+  max-width: 282px;
+  width: 100%;
+  gap: 12px;
+  justify-content: space-between;
+  background: $WhiteColor;
+  border-radius: 16px;
+}
+
+.slider-card__text {
+  max-width: 100%;
+
+  padding: 16px 0 0 16px;
+}
+
+.card-title {
+  margin-bottom: 8px;
+}
+
+.card-desc {
+  font-size: 15px;
+  line-height: 140%;
+  color: $GrayText;
+}
+
+.slider-class__image {
+  max-width: 104px;
+  img {
+    max-width: 104px;
+    height: 100%;
+  }
+}
+
+// стили slider
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  gap: 20px;
+}
+
+.questions-slider .slick-arrow {
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 8;
+}
+
+.questions-slider .slick-arrow.slick-next {
+  content: "";
+  display: block;
+  right: 23px;
+  font-size: 0;
+  padding: 10px;
+  background-color: $WhiteColor;
+  background-image: (url(../../resourses//chevron_right.svg));
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.questions-slider .slick-arrow.slick-prev {
+  display: none !important;
+}

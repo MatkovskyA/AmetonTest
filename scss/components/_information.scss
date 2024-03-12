@@ -1,0 +1,53 @@
+.information {
+}
+.container {
+}
+.section-title {
+}
+.accordion {
+  max-width: 996px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.accordion-content {
+}
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  background-color: $WhiteColor;
+  border-radius: 16px;
+}
+
+.accordion-title.active .accordion-button {
+  transform: rotate(45deg);
+}
+
+.accordion-button {
+  border: none;
+  background-color: $WhiteColor;
+  transform: rotate(0);
+  transition: all 0.5s ease-out;
+}
+
+.accordion-desc {
+  padding: 0;
+  background-color: $WhiteColor;
+  color: $GrayText;
+  border-radius: 0 0 16px 16px;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  box-sizing: content-box;
+  transition: all 0.3s ease-out;
+}
+
+.accordion-desc.active {
+  visibility: visible;
+  opacity: 1;
+  padding: 0 24px 24px 24px;
+  transition: all 0.3s ease-out;
+}
