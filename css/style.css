@@ -40,7 +40,7 @@ a {
 
 .support-wrapper {
   padding: 40px 15px 54px;
-  background-image: url(../../resourses/bg.webp);
+  background-image: url(../resourses/bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -240,7 +240,7 @@ a {
   font-size: 0;
   padding: 10px;
   background-color: #ffffff;
-  background-image: url(../../resourses//chevron_right.svg);
+  background-image: url(../resourses//chevron_right.svg);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
