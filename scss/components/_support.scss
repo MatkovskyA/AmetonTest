@@ -11,7 +11,13 @@
   border-radius: 40px;
 }
 
-//Код ниже позволяет вставить элементы декора секции через псевдоэлементы, но при адаптиве их сразу нужно было бы убрать
+@media (max-width: 992px) {
+  .support-wrapper {
+    background-image: none;
+    background-color: $BlueColor;
+  }
+}
+//Код ниже позволяет вставить элементы декора секции через псевдоэлементы, но при адаптиве их сразу нужно убрать, так как закроют контент (так по макету)
 // .support-wrapper::after {
 //   content: "";
 //   position: absolute;
@@ -35,7 +41,9 @@
 
 .support-title {
   margin-bottom: 4px;
+  text-align: center;
 }
+
 .support-description {
   font-size: 17px;
   line-height: 140%;

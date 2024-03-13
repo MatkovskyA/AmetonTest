@@ -27,10 +27,19 @@
   border-radius: 16px;
 }
 
+@media (max-width: 576px) {
+  .slider-card {
+    min-height: 100%;
+  }
+}
+
 .slider-card__text {
   max-width: 100%;
+  padding: 16px 0 16px 16px;
+}
 
-  padding: 16px 0 0 16px;
+.text-padding {
+  padding: 16px;
 }
 
 .card-title {
@@ -43,11 +52,23 @@
   color: $GrayText;
 }
 
+@media (max-width: 576px) {
+  .card-desc {
+    font-size: 12px;
+  }
+}
+
 .slider-class__image {
   max-width: 104px;
   img {
     max-width: 104px;
     height: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-class__image {
+    display: none;
   }
 }
 
