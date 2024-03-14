@@ -166,8 +166,6 @@ a {
   min-height: 162px;
   display: flex;
   min-width: 0;
-  max-width: 282px;
-  width: 100%;
   gap: 12px;
   justify-content: space-between;
   background: #ffffff;
@@ -223,6 +221,7 @@ a {
 .slick-track {
   display: flex;
   gap: 20px;
+  justify-content: start;
 }
 
 .questions-slider .slick-arrow {
